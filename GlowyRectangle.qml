@@ -6,7 +6,6 @@ Item {
     id: control
     property color bgColor: "white"
 
-    // Create multiple blurred circles for smooth glow
     Repeater {
         model: 3
         Rectangle {
